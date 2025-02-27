@@ -1,27 +1,26 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>브리즈홈 서비스 종료 안내</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;  /* 가로 중앙 정렬 */
-            align-items: flex-start;  /* 세로 정렬 기준을 위쪽으로 설정 */
-            height: 100vh;  /* 화면 높이를 기준으로 정렬 */
-            margin: 0;
-        }
-        .email-link {
-            margin-top: 60px;  /* 위에서 60px 아래로 이동 */
-        }
-    </style>
+<title>브리즈홈 서비스 종료 안내</title>
+<style>
+  .container {
+      text-align: center; /* 이미지를 가운데 정렬 */
+      padding-top: 60px; /* 위에서 60px 아래로 정렬 */
+  }
+  img {
+      max-width: 80%; /* 이미지 최대 너비 설정 (선택 사항) */
+      max-height: 80%; /* 이미지 최대 높이 설정 (선택 사항) */
+      height: auto; /* 이미지 비율 유지 */
+  }
+</style>
 </head>
-<body>
+<body style="background-color: white;">
 
-<a href="mailto:breezehome.cs@gmail.com" class="email-link">
+<div class="container">
+  <a href="mailto:breezehome.cs@gmail.com">
     <img src="service_end_page.jpg" alt="브리즈홈 서비스 관련 문의 메일">
-</a>
+  </a>
+</div>
 
 </body>
 </html>
